@@ -1,0 +1,49 @@
+.logo{
+    font-size: 130%;
+}
+
+@media screen and (max-width:930px){
+
+.logoutbtn{
+    position: fixed;
+    top: 23px;
+    right: 70px;
+}
+    
+}
+@media screen and (max-width:300px){
+
+.logoutbtn{
+    
+
+
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    font-size: 80%;
+    color: tomato !important;
+    padding: 5px !important;
+}
+.logoutbtn i{
+    color: tomato !important;
+}
+    
+}
+@media screen and (max-width:425px){
+
+.logoutbtn{
+    
+
+
+    position: fixed;
+    top: 95px;
+    right: 0px;
+    font-size: 80%;
+    color: tomato !important;
+    padding: 5px !important;
+}
+.logoutbtn i{
+    color: tomato !important;
+}
+    
+}

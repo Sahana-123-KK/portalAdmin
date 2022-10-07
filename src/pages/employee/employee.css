@@ -1,0 +1,96 @@
+.heading{
+    margin-top: 100px;
+}
+
+.input-employee{
+    width: 25%;
+    /* text-align: center; */
+    /* position: fixed; */
+    /* right: 30px; */
+    /* display: block; */
+    /* margin: auto; */
+
+    /* margin-right: 25px; */
+    margin-left: 600px;
+    margin-top: 25px;
+}
+
+.all-employees{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee{
+    width: 35%;
+    margin: 20px;
+    border: 2px solid tomato;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    /* height: 20%; */
+}
+
+.names{
+    border-bottom: 4px solid tomato;
+    padding-bottom: 2px;
+
+}
+
+.employee i{
+    color: tomato ;
+}
+
+@media screen and (max-width:440px){
+    .heading{
+        margin-top: 160px !important;
+    }
+
+    .input-employee{
+        width: 80%!important;
+
+        margin-top: 20px!important;
+        margin-left: 55px;
+        /* top */
+    }
+
+    .all-employees{
+        margin-top: 0px !important;
+    }
+
+    .employee{
+        width: 85% !important;
+    }
+}
+
+@media screen and (max-width:930px){
+
+
+        .heading{
+            margin-top: 120px;
+        }
+
+        .input-employee{
+            margin-left: 280px;
+            width: 40%;
+        }
+}
+
+@media screen and (max-width:560px){
+
+
+    .input-employee{
+        width: 60%;
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:300px){
+.input-employee{
+    /* width: 40%; */
+    margin-left: 40px;
+}
+
+}

@@ -1,0 +1,37 @@
+.dash-content{
+    /* margin-left: 233px;
+    
+    display: inline-block; */
+    width: 60%;
+}
+
+.dash-controll{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navv-left{
+
+    position: fixed;
+    left: 0;
+    top: 77px;
+}
+
+.img-sizing{
+    width: 75%;
+    height: auto;
+    margin-left: 50px;
+}
+.images-dash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .title-dash{
+    position: fixed;
+    top:77px;
+} */

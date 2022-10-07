@@ -1,0 +1,19 @@
+.intro{
+    margin-top: 120px;
+}
+
+@media screen and (max-width:430px){
+    .intro{
+        margin-top: 150px !important;
+    }
+
+    body{
+        font-size: 80% !important;
+    }
+}
+
+@media screen and (max-width:840px){
+
+
+    
+}
